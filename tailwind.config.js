@@ -4,8 +4,7 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-            clifford: '#da373d',
-            'primary-color':'',
+            'primary-color':'#ABEF5F',
           },
             backgroundImage:{
             'hero-bg': "url('')",

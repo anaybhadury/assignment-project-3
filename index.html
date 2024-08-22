@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -24,8 +24,7 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
-                        'primary-color': '',
+                        'primary-color': '#ABEF5F',
                     },
                     backgroundImage: {
                         'hero-bg': "url('')",
@@ -39,8 +38,36 @@
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
+    <header class="container mx-auto bg-[#FFFFFF]">
+        <nav class="navbar bg-base-100 pt-14">
+            <div class="navbar-start">
+                <a href=""><i class="fa-solid fa-arrow-right bg-primary-color px-2 py-2 rounded-full -rotate-45 mr-2"></i></a>
+                <a class=" font-black text-3xl cursor-pointer">Rinterio</a>
+            </div>
 
+            <div class="navbar-center hidden lg:flex">
+                <ul class="flex gap-6 px-1">
+                    <li class="font-bold"><a href="" class="text-lg">Home</a></li>
+                    <li><a href="" class="text-lg">Services</a></li>
+                    <li><a href="" class="text-lg">Portfolio</a></li>
+                    <li><a href="" class="text-lg">Blogs</a></li>
+                    <li><a href="" class="text-lg">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a href=""><i class="fa-solid mr-5 px-2 py-2 rounded-full bg-[#E9E9E9] fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid mr-5 fa-cart-shopping px-2 py-2 bg-[#E9E9E9] rounded-full"></i></a>
+                <a class="btn rounded-full text-lg font-black bg-primary-color hover:bg-primary-color">Book Consult <i class="fa-solid px-2 py-2 bg-black text-white rounded-full -rotate-45 fa-arrow-right"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
