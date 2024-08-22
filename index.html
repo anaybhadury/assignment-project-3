@@ -40,14 +40,15 @@
 
 <body class="font-manrope">
     <header class="container mx-auto bg-[#FFFFFF]">
-        <nav class="navbar bg-base-100 pt-14">
-            <div class="navbar-start">
+        <!-- navbar section start -->
+        <nav class="navbar bg-base-100 pt-8 lg:flex lg:justify-between">
+            <div class="navbar-start lg:w-1/6 xl:w-1/6 2xl:w-1/6 ">
                 <a href=""><i class="fa-solid fa-arrow-right bg-primary-color px-2 py-2 rounded-full -rotate-45 mr-2"></i></a>
                 <a class=" font-black text-3xl cursor-pointer">Rinterio</a>
             </div>
 
-            <div class="navbar-center hidden lg:flex">
-                <ul class="flex gap-6 px-1">
+            <div class="navbar-center hidden xl:block lg:block 2xl:navbar-center">
+                <ul class="flex gap-6 px-1 ">
                     <li class="font-bold"><a href="" class="text-lg">Home</a></li>
                     <li><a href="" class="text-lg">Services</a></li>
                     <li><a href="" class="text-lg">Portfolio</a></li>
@@ -55,12 +56,19 @@
                     <li><a href="" class="text-lg">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="navbar-end">
+            <div class="hidden md:block md:navbar-end 2xl:navbar-end">
                 <a href=""><i class="fa-solid mr-5 px-2 py-2 rounded-full bg-[#E9E9E9] fa-magnifying-glass"></i></a>
                 <a href=""><i class="fa-solid mr-5 fa-cart-shopping px-2 py-2 bg-[#E9E9E9] rounded-full"></i></a>
                 <a class="btn rounded-full text-lg font-black bg-primary-color hover:bg-primary-color">Book Consult <i class="fa-solid px-2 py-2 bg-black text-white rounded-full -rotate-45 fa-arrow-right"></i></a>
+                <a href=""><i class="fa-solid fa-bars ml-5 px-2 py-2 rounded-full bg-[#E9E9E9]"></i></a>
+            </div>
+            <div class="navbar-end md:hidden lg:hidden 2xl:hidden">
+                <a href=""><i class="fa-solid fa-bars px-2 py-2 rounded-full bg-[#E9E9E9]"></i></a>
             </div>
         </nav>
+        <!-- navbar section end -->
+
+        
     </header>
     <main>
 
