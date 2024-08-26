@@ -8,7 +8,7 @@ module.exports = {
             'secondary-color': '#212121'
           },
             backgroundImage:{
-            'hero-bg': "url('')",
+            'discuss-bg': "url('./assets/bg.jpg'')",
           },
             fontFamily: {
             'manrope': "Manrope",
