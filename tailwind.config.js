@@ -11,7 +11,7 @@ module.exports = {
             'discuss-bg': "url('./assets/bg.jpg'')",
           },
             fontFamily: {
-            'manrope': "Manrope",
+            'manrope': "Manrope, sans-serif",
           }
       },
     },
